@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 const Home = () => {
     return (
         <div >
-            <h1 className='flex justify-center mb-2 mt-10 space-x-4 font-semibold text-4xl text-cyan-600'>Welcome to the Secure Task Management System</h1>
+            <h1 className='flex justify-center mb-2 mt-10 space-x-4 font-semibold text-4xl text-cyan-600'>Welcome to the Task Management System Designed by Task Master</h1>
             <br/>
             <p className='flex justify-center ml-20 mr-20 text-cyan-900 space-x-4 text-3xl'>After Registering, you can able to create, update and delete your own tasks.
                  Only admin can able to see all the users.</p>
