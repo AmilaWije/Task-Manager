@@ -1,6 +1,6 @@
-# Secure Task Management System
+#Task Management System
 
-This is a Secure Task Management System built using the MERN stack (MongoDB, Express.js, React, and Node.js) with JWT-based authentication. The application allows users to manage tasks efficiently with features like task categorization(priority), filtering, and security-enhanced CRUD operations.
+This is a Task Management System built using the MERN stack (MongoDB, Express.js, React, and Node.js) with JWT-based authentication. The application allows users to manage tasks efficiently with features like task categorization(priority), filtering, and security-enhanced CRUD operations.
 
 ## Features
 - User authentication with JWT
@@ -15,15 +15,12 @@ Ensure you have the following installed on your system:
 - [MongoDB](https://www.mongodb.com/) 
 - [Git](https://git-scm.com/)
 
-## Demo Video
-[![Watch the video](https://img.youtube.com/vi/EJHRTrSXjNk/0.jpg)](https://youtu.be/EJHRTrSXjNk)
-
 ## Installation and Setup
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/mihadcse/Secure_Task_Management_System.git
-cd Secure_Task_Management_System
+git clone https://github.com/AmilaWije/Task-Manager.git
+cd Task_Management_System
 ```
 
 ### 2. Setup Backend (Express.js & MongoDB)
@@ -63,6 +60,6 @@ The React frontend should now be running on `http://localhost:3000`.
 - Manage tasks efficiently with security-enhanced authentication.
 
 ## Created By
-- Syed Huzzatullah Mihad
-- CSE-2 ID-210041218
+- Amila Wijerathna
+- MS24905886
 
