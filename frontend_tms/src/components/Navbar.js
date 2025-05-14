@@ -24,7 +24,7 @@ const Navbar = () => {
                 {/* If user is logged in, show only the system name and logout button */}
                 {(token || isAdminLoggedIn) ? (
                     <>
-                        <li className="text-2xl">Secure Task Management System(TMS)</li>
+                        <li className="text-2xl">Task Management System(TMS)</li>
                         <button
                             onClick={handleLogout}
                             className="py-2 px-5 border text-xl border-cyan-400 rounded bg-cyan-50 text-cyan-950 font-bold hover:bg-cyan-900 hover:border-cyan-800 hover:text-white"
@@ -36,7 +36,7 @@ const Navbar = () => {
                     // If not logged in, show login and register links
                     <>
                         <li>
-                            <Link to="/" className="hover:text-cyan-950 text-2xl">Secure Task Management System(TMS)</Link>
+                            <Link to="/" className="hover:text-cyan-950 text-2xl">Task Management System(TMS)</Link>
                         </li>
                         <Link to="/login" className='py-2 px-2 border text-xl  border-cyan-400 rounded bg-cyan-50 text-cyan-950 font-bold
                      hover:bg-cyan-900 hover:border-cyan-800 hover:text-white'>Login</Link>
